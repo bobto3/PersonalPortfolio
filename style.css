@@ -1,6 +1,6 @@
 * {
-    border: 3px solid black;
-    margin: 5px;
+    /* border: 3px solid black; */
+    /* margin: 20px; */
     list-style: none;
     font-family: Helvetica, sans-serif;
 }
@@ -12,6 +12,20 @@ header {
     align-items: center;
     height: 100px;
     background-color: darkcyan;
+}
+
+h1 {
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+h2 {
+    font-size: 50px;
+    /* transform: rotate(-90deg); */
+}
+
+h4 {
+    margin-bottom: 20px;
 }
 
 section {
@@ -29,7 +43,8 @@ footer {
 }
 
 li {
-    padding: 5px;
+    padding: 15px;
+    margin: 0px 10px;
     background-color: darkgrey;
 }
 
@@ -39,18 +54,35 @@ li {
     padding: 5px;
 }
 
-.project {
+.side {
+    background-color: darkgrey;
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+
+}
+
+.mainContent {
+    width: 75%;
     display: flex;
     flex-wrap: wrap;
+    margin: 20px;
 }
 
-.contact {
+.projectTile {
     display: flex;
-    
-    
+    flex-wrap: wrap;
+    border: 3px solid black;
+    margin: 20px;
 }
 
-.side {
-    width: 33vw;
-    background-color: darkgrey;
+.contactList {
+    display: flex;
+}
+
+#contactSection {
+	height: 100px;
 }
