@@ -1,0 +1,47 @@
+* {
+    border: 3px solid black;
+    margin: 5px;
+    list-style: none;
+}
+
+header {
+    border-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: darkcyan;
+}
+
+section {
+    border-color: green;
+    display: flex;
+}
+
+footer {
+    border-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: darkcyan;
+    height: 150px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+
+.side {
+    width: 33vw;
+}
