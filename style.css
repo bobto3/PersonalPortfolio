@@ -11,21 +11,31 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    background-color: darkcyan;
+    background-color: black;
 }
 
 h1 {
     font-size: 25px;
     padding-left: 50px;
+    color: white;
 }
 
 h2 {
     font-size: 50px;
-    /* transform: rotate(-90deg); */
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: right;
+}
+
+h3 {
+    color: white;
+    font-size: 50px;
+    padding: 10px;
 }
 
 h4 {
     margin-bottom: 20px;
+    color: white;
 }
 
 section {
@@ -38,30 +48,31 @@ footer {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-color: darkcyan;
+    background-color: black;
     height: 150px;
 }
 
 li {
     padding: 15px;
     margin: 0px 10px;
-    background-color: darkgrey;
+    /* background-color: darkgrey; */
 }
 
 .menu {
+    color: white;
     display: flex;
     justify-content: flex-end;
     padding: 5px;
 }
 
 .side {
-    background-color: darkgrey;
+    /* background-color: darkgrey; */
     width: 33%;
     display: flex;
     justify-content: flex-end;
     margin: 20px;
-    padding-top: 20px;
-    padding-right: 20px;
+    padding: 20px;
+    /* padding-right: 20px; */
 
 }
 
@@ -77,7 +88,7 @@ li {
     flex-wrap: wrap; */
     flex: 1 0 35%;
     position: relative;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     margin: 20px;
     
 }
@@ -103,7 +114,7 @@ li {
 }
 
 #contactSection {
-	height: 100px;
+	/* height: 100px; */
 }
 
 #tileOne {
