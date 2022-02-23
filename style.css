@@ -73,16 +73,39 @@ li {
 }
 
 .projectTile {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
+    flex: 1 0 35%;
+    position: relative;
     border: 3px solid black;
     margin: 20px;
+    
+}
+
+.projectTile h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.projectTile img {
+    width: 100%;
 }
 
 .contactList {
     display: flex;
 }
 
+.contactList li {
+    height: 20px;
+    margin-top: 20px;
+}
+
 #contactSection {
 	height: 100px;
+}
+
+#tileOne {
+    flex: 1 0 70%;
 }
