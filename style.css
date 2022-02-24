@@ -1,12 +1,9 @@
 * {
-    /* border: 3px solid black; */
-    /* margin: 20px; */
     list-style: none;
     font-family: Helvetica, sans-serif;
 }
 
 header {
-    border-color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,12 +37,6 @@ h2 {
     text-align: right;
 }
 
-h3 {
-    color: black;
-    font-size: 40px;
-    padding: 20px;
-}
-
 h4 {
     margin-bottom: 20px;
     color: white;
@@ -57,7 +48,6 @@ section {
 }
 
 footer {
-    border-color: blue;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -68,7 +58,6 @@ footer {
 li {
     padding: 15px;
     margin: 0px 10px;
-    /* background-color: darkgrey; */
 }
 
 .menu {
@@ -78,7 +67,6 @@ li {
 }
 
 .side {
-    /* background-color: darkgrey; */
     width: 33%;
     display: flex;
     justify-content: flex-end;
@@ -92,7 +80,6 @@ li {
     width: 75%;
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
 }
 
 .projectTile {
@@ -102,17 +89,20 @@ li {
     margin: 20px;
     
 }
-.projectTile:hover {
-    color: white;
-    /* border: 10px solid black; */
+.projectTile img:hover {
     opacity: 50%;
 }
 
 .projectTile h3 {
+    color: black;
+    font-size: 40px;
+    padding: 10px;
+    margin: 20px;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 2;
+    background-color: white;
 }
 
 .projectTile img {
@@ -140,17 +130,26 @@ li {
     border: 2px solid black;
 }
 
-#contactSection {
-	/* height: 100px; */
+#aboutMe {
+    margin-right: 50px;
+}
+
+#projects {
+    margin-right: 50px;
+}
+
+#contact {
+	margin-right: 50px;
 }
 
 #tileOne {
     flex: 1 0 70%;
-    /* max-height: 200px; */
+    color: white;
 }
 
 #aboutMe {
-    margin-top: 50px;
+    margin-top: 45px;
     /* margin-left: 50px; */
     /* margin-right: 50px; */
+    /* padding-right: 50px; */
 }
