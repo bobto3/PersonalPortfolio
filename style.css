@@ -121,6 +121,11 @@ li {
     margin-top: 20px;
 }
 
+.contactList a {
+    color: black;
+    text-decoration: none;
+}
+
 #contactSection {
 	/* height: 100px; */
 }
