@@ -80,21 +80,32 @@ li {
     flex-wrap: wrap;
 }
 
+.mainAboutMe{
+    flex: 1;
+}
+
+.mainAboutMeText{
+    flex: 4;
+}
+
 .projectTile {
     flex: 1 0 35%;
     position: relative;
-    border: 5px solid black;
     margin: 20px;
     
 }
 
-.projectTile img:hover {
+.projectTile:hover h3{
+    font-size: 50px;
+}
+
+.projectTile:hover img{
     opacity: 50%;
 }
 
 .projectTile h3 {
     color: black;
-    font-size: 50px;
+    font-size: 45px;
     padding: 10px;
     margin: 20px;
     position: absolute;
@@ -106,6 +117,7 @@ li {
 
 .projectTile img {
     width: 100%;
+    border: 5px solid black;
 }
 
 .contactList {
